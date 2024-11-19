@@ -1,4 +1,5 @@
 # Základní projekt pro jazyk C
+Základní definice projektového adresáře pro jazyk C. Projektový adresář obsahuje soubor main.c obsahující main funkci tvořící kostru programů a Makefile ve které jsou uvedené definice překladových pravidel, které je následně možné přizpůsobit vlastním projektům.
 
 # Makefile překladová pravidla
 Soubor Makefila obsahuje překladová pravidla, díky kterým je možné libovlý projekt se svou vlastní strukturou souborů překládat jednotným způsobem. Pro spuštění daného překladového pravidla stačí zavolat prorgam make, který si automaticky načte soubor Makefile a předá se mu název požadovaného překladového pravidla.
