@@ -1,0 +1,13 @@
+
+* funkce
+* struktury
+
+* ukazatelé
+* souborový vstup a výstup
+
+* tvorba modulů a include
+* preprocesor
+* alokace paměti
+
+
+

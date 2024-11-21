@@ -13,7 +13,7 @@ blokové komentáře na více řádků
  * provádět
 
  * Základní datové typy v jazyce C
- * char - 8bity - pro uložení jednoho znaku
+ * char - 8bity - pro uložení jednoho znaku/čísla
  * short - 16tbitů - pro uložení celého čísla
  * int - 32bitů - pro uložení celého čísla
  * long - 64bitů - pro uložení celého čísla
