@@ -1,0 +1,400 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Built by MSYS2 project) (preloaded format=pdfcsplain 2024.11.11)  21 NOV 2024 18:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+ encTeX v. Jun. 2004, reencoding enabled
+**src/UvodDoProgramovani.tex
+(./src/UvodDoProgramovani.tex The format: csplain <Mar. 2022>.
+The cs-fonts are preloaded and A4 size implicitly defined.
+The utf8->iso8859-2 re-encoding of Czech+Slovak alphabet activated by encTeX
+(c:/Users/petrh/texmf/tex/plane/tmac/tmac.tex
+\tmpnum=\count28
+\tmpdim=\dimen16
+\iindent=\dimen17
+\ttindent=\dimen18
+\colsep=\dimen19
+\mnoteindent=\dimen20
+\mnotesize=\dimen21
+\titskip=\skip18
+\ptunit=\dimen22
+\fontdim=\dimen23
+
+(c:/msys64/mingw64/share/texmf-dist/tex/csplain/fonts/ams-math.tex
+FONT: AMS math fonts - \mathchardef's prepared, 12 math families preloaded.
+\ptmunit=\dimen24
+)
+The \^, \`, \', \v, \" and \r expands to characters by ISO-8859-2.
+\reffile=\write0
+\testin=\read0
+\chapnum=\count29
+\secnum=\count30
+\seccnum=\count31
+\nonumnum=\count32
+\remskipamount=\skip19
+\tnum=\count33
+\fnum=\count34
+\dnum=\count35
+\itemnum=\count36
+\mullines=\count37
+\oulnum=\count38
+\ttline=\count39
+\viline=\count40
+\vifile=\read1
+\tabdata=\toks12
+\colnum=\count41
+\drulewidth=\dimen25
+\picwidth=\dimen26
+\picheight=\dimen27
+\fnotenum=\count42
+\fnotenumlocal=\count43
+\mnotenum=\count44
+\mnoteskip=\dimen28
+\auxfile=\write1
+\bibnum=\count45
+\bibmark=\toks13
+\lastcitenum=\count46
+\lastpage=\count47
+\pgwidth=\dimen29
+\pgheight=\dimen30
+\shiftoffset=\dimen31
+
+(pdf/UvodDoProgramovani.ref)
+\openout0 = `UvodDoProgramovani.ref'.
+
+)
+cs hyphenation used (\language=5). \frenchspacing is set on. (./src/Title.tex
+[1{c:/msys64/mingw64/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2]) (./src/Uvod.tex) [1] (./src/ZakladyAlgoritmizace.tex [2] [3 <./img/uml_seq
+uence.png> <./img/uml_selection.png> <./img/uml_iteration.png>]) [4 <./img/uml_
+conditional_iteration.png>] [5] (./src/ZakladyJazykaC.tex
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(731.23584+2.33331)x455.24411, glue set 5.966
+.\glue(\topskip) 0.0
+.\hbox(14.40083+4.03221)x455.24411, glue set 258.24046fil
+..\write0<3>{\string \Xtoc {0}{\noexpand \bfshape }{3}{Základy jazyka C}{\the 
+\pageno \ETC.}
+..\tenbf 3
+..\glue 7.77646 plus 3.88823 minus 2.59215
+..\penalty 10000
+..\tenbf Z
+..\tenbf á
+..\tenbf k
+..\tenbf l
+..\tenbf a
+..\tenbf d
+..\tenbf y
+..\glue 7.77646 plus 3.88823 minus 2.59215
+..\tenbf j
+..\tenbf a
+..\tenbf z
+..\tenbf y
+..\tenbf k
+..\kern-0.64804
+..\tenbf a
+..\glue 7.77646 plus 3.88823 minus 2.59215
+..\tenbf C
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\mark{}
+.\penalty 10000
+.\glue 14.0 plus 4.6666 minus 4.6666
+.\penalty 11333
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 1.70113
+.\hbox(8.26666+2.33331)x455.24411, glue set - 0.42265
+..\tenrm J
+..\tenrm a
+..\tenrm z
+..\tenrm y
+..\tenrm k
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm C
+..\glue 3.91663 plus 1.95634 minus 1.30684
+..\tenrm j
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm e
+..\tenrm d
+..\tenrm n
+..\tenrm í
+..\tenrm m
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm n
+..\tenrm e
+..\tenrm j
+..\tenrm s
+..\tenrm t
+..\tenrm a
+..\tenrm r
+..\tenrm š
+..\tenrm í
+..\tenrm c
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 3.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set - 0.1123
+..\tenrm v
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 7
+..\tenrm 0
+..\tenrm .
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm l
+..\tenrm e
+..\tenrm t
+..\tenrm e
+..\tenrm c
+..\kern-0.32639
+..\tenrm h
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 2
+..\tenrm 0
+..\tenrm .
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm s
+..\tenrm t
+..\tenrm o
+..\tenrm l
+..\tenrm e
+..\tenrm t
+..\tenrm í
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm v
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm B
+..\tenrm e
+..etc.
+.\glue(\baselineskip) 3.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.2926
+..\tenrm m
+..\tenrm o
+..\kern0.32639
+..\tenrm d
+..\tenrm e
+..\tenrm r
+..\tenrm n
+..\tenrm í
+..\tenrm c
+..\kern-0.32639
+..\tenrm h
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm r
+..\tenrm o
+..\tenrm g
+..\tenrm r
+..\tenrm a
+..\tenrm m
+..\tenrm o
+..\kern-0.32639
+..\tenrm v
+..\kern-0.32639
+..\tenrm a
+..\tenrm c
+..\tenrm í
+..\tenrm c
+..\kern-0.32639
+..\tenrm h
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 3.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 275.2793fil
+..\tenrm v
+..\tenrm y
+..\tenrm š
+..\tenrm š
+..\tenrm í
+..\tenrm c
+..\kern-0.32639
+..\tenrm h
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm ú
+..\tenrm r
+..\tenrm o
+..\kern-0.32639
+..\tenrm v
+..\tenrm n
+..\tenrm í
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm a
+..\tenrm k
+..\kern-0.32639
+..\tenrm o
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm J
+..\tenrm a
+..\kern-0.32639
+..\tenrm v
+..\kern-0.32639
+..\tenrm a
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..etc.
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 3.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 331.00075fil
+..\hbox(0.0+0.0)x20.0
+..\tenrm V
+..\tenrm l
+..\tenrm a
+..\tenrm s
+..\tenrm t
+..\tenrm n
+..\tenrm o
+..\tenrm s
+..\tenrm t
+..\tenrm i
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm a
+..\tenrm z
+..\tenrm y
+..\tenrm k
+..\kern-0.32639
+..\tenrm a
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm C
+..\tenrm :
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\glue 7.0 plus 2.33319 minus 2.33319
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 2.66669
+.\hbox(9.0+3.0)x455.24411, glue set - 0.71472
+..\glue(\leftskip) 20.0
+..\hbox(5.33334+0.0)x0.0, glue set - 11.87495fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+...\mathon
+...\mF ^^O
+...\mathoff
+...\kern 5.87494
+..\tenbf N
+..\tenbf í
+..\tenbf z
+..\tenbf k
+..\kern-0.375
+..\tenbf á
+..\glue 4.5 plus 2.25 minus 1.5
+..\tenbf ú
+..\tenbf r
+..\discretionary replacing 2
+...\tenbf o
+...\tenbf -
+..\tenbf o
+..\kern-0.375
+..\tenbf v
+..\kern-0.375
+..\tenbf e
+..\tenbf ň
+..\glue 4.5 plus 2.25 minus 1.5
+..\tenbf a
+..\tenbf b
+..\tenbf s
+..\discretionary
+...\tenbf -
+..\tenbf t
+..\tenbf r
+..\tenbf a
+..\tenbf k
+..\kern-0.375
+..\tenbf c
+..\tenbf e
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 2.0
+.\hbox(9.0+3.0)x455.24411, glue set 0.20978
+..\glue(\leftskip) 20.0
+..\tenrm ú
+..\tenrm r
+..\tenrm o
+..\kern-0.32639
+..\tenrm v
+..\tenrm n
+..\tenrm i
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm z
+..\tenrm y
+..\tenrm k
+..\kern-0.32639
+..\tenrm a
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm r
+..\tenrm o
+..\discretionary
+...\tenrm -
+..\tenrm g
+..\tenrm r
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm m
+..\tenrm á
+..\discretionary
+...\tenrm -
+..\tenrm t
+..etc.
+.\penalty 10100
+.\glue(\baselineskip) 2.73334
+.\hbox(8.26666+2.33331)x455.24411, glue set 289.28452fil
+..\glue(\leftskip) 20.0
+..\tenrm ň
+..\kern-0.32639
+..\tenrm u
+..\tenrm j
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm ř
+..\tenrm í
+..\tenrm m
+..\tenrm í
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm ř
+..\tenrm í
+..\discretionary
+...\tenrm -
+..\tenrm s
+..\tenrm t
+..\tenrm u
+..\tenrm p
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm k
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm m
+..\tenrm ě
+..\tenrm t
+..etc.
+.etc.
+
+ [6]
+[7 <./img/setup_environment_variables.png> <./img/environment_variables.png>]
+[8 <./img/msys2_update.png> <./img/vs_code.png>]) [9] )<c:/msys64/mingw64/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/msys64/mingw64/share/
+texmf-dist/fonts/type1/public/cs/csbx12.pfb><c:/msys64/mingw64/share/texmf-dist
+/fonts/type1/public/cs/csr10.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type
+1/public/cs/csr12.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cs
+/csti12.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cs/cstt12.pf
+b>
+Output written on pdf/UvodDoProgramovani.pdf (11 pages, 1017061 bytes).
+PDF statistics:
+ 75 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

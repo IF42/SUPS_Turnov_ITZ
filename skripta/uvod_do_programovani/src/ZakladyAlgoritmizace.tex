@@ -1,0 +1,74 @@
+\chap {Zaklady algoritmizace}
+
+\sec {Co je to algoritmus}
+Algoritmus je přesně definovaný postup skládající se z konečného počtu jasně popsaných kroků, které vedou k řešení určitého problému.
+
+Příklady algoritmů můžeme najít všude kolem nás:
+\begitems
+* {\bf V běžném životě}: Recept na přípravu jídla je algoritmus - obsahuje přesné kroky, jak dosáhnout požadovaného výsledku (například upečení koláče).
+* {\bf V programování}: Počítačový algoritmus může vyhledat informace, seřadit data nebo vypočítat matematický problém.
+\enditems
+
+Algoritmus je základem každého programu. Než začneme programovat, je důležité nejprve vymyslet a navrhnout algoritmus, protože právě on definuje, jakým způsobem se problém vyřeší.
+
+\sec {Vlastnosti algoritmu}
+Algoritmus je složením dat a instrukcí, které říkají co se s těmito daty dělá. Každý algoritmus musí splňovat několik klíčových vlastností, aby byl považován za správný a funkční.
+
+\begitems
+* {\bf Vstupní bod} - Každý algoritmus musí mít jeden přesně definovaný vstupní bod, aby bylo jasné kde algoritmus začíná, tedy jakou instrukcí začít.
+* {\bf Výstupní bod} - Algoritmus musí mít minimálně jeden, ale i více výstupních bodů, tedy stavů kdy algoritmus již nepokračuje ve své činnosti. Algoritus totiž může skončit různými způsoby, například úspěšně a nebo neúspěšně.
+* {\bf Konečnost} - Algoritmus musí vždy skončit po konečném počtu kroků. Nemůže pokračovat nekonečně, jinak by problém nevyřešil.
+* {\bf Vstup} - Algoritmus přijímá vstupní data, která zpracovává. Kdyby do algoritmu nebyly vloženy žádná data, algoritmus by neměl s čím pracovat.
+* {\bf Výstup} - Výsledkem algoritmu musí být jednoznačný výstup, který odpovídá zadanému problému. Tento výstup je závislý na vstupu. Kdyby výstupem algoritmu nebyl žádný výsledek, algoritmus by nedělal nic užitečného a byl by zbytečný.
+\enditems
+
+\sec {Kontext/vnitřní stav algoritmu}
+Algoritmus při svém průchodu vytváři tzv. {\bf kontext} nebo také {\bf vnitřní stav}. V reálném světě například v případě kuchařského receptu je kontext algoritmu stav v jakém se nachází vařené jídlo. V případě počítačového programu je kontext algoritmu tvořem hodnotami uloženými v paměti RAM. V průběhu vykonávání algoritmu se tento vnitřní stav algoritmu mění a je na něj možné reagovat pomocí {\bf řídících konstrukcí}. 
+
+\sec {Řídící konstrukce algoritmu}
+Každý algoritmus je tvořen kombinací tří základních konstrukcí, které určují, jak jsou jednotlivé kroky algoritmu prováděny.
+
+\secc {Sekvence}
+Sekvence je definovaná jako posloupnost kroků, pracující s daty, které v přesně stanovaném pořadí vedou k řešení problému.
+
+\vskip 5mm
+\picw=.1\hsize \centerline{\inspic {\imgpath uml_sequence.png} }\nobreak\medskip
+\caption/f Diagram sekvence
+
+\secc {Selekce}
+Selekce umožňuje rozhodování na základě podmínky, která část algoritmu se vykoná. Díky tomu lze vytvořit felexibilní chování, které reaguje na aktuální vnitřní stav algoritmu. 
+
+\vskip 5mm
+\picw=.25\hsize \centerline{\inspic {\imgpath uml_selection.png} }\nobreak\medskip
+\caption/f Diagram selekce (větvení)
+
+\secc {Iterace}
+Iterace, nebo také cyklus nebo smyčka umožňuje opakované vykonávání určité sekvence kódu, na základě platnosti nějaké podmínky. Je možné rozlišit dva případy iterace. Iterace s pevným počtem opakování se používá v případech kdy předem víme kolikrát je třeba vykonat určitou sekvenci kódu. 
+
+\vskip 5mm
+\picw=.35\hsize \centerline{\inspic {\imgpath uml_iteration.png} }\nobreak\medskip
+\caption/f Diagram iterace s pevným počtem opakování
+
+Podmíněná iterace je použita ve chvíli kdy je třeba vícekrát vykonat určitou sekvenci kódu, ale není předem možné určit kolikrát to bude třeba.
+
+\vskip 5mm
+\picw=.35\hsize \centerline{\inspic {\imgpath uml_conditional_iteration.png} }\nobreak\medskip
+\caption/f Diagram podmíněné iterace
+
+\sec {Algoritmizace problému}
+Algoritmizace je proces vytváření algoritmu - tedy přesného a efektivního postupu, který vede k vyřešení konkrétního problému. Tento proces zahrnuje analýzu problému, návrh a testování algoritmu, který tento problém efektivně vyřeší. 
+
+\secc {Kroky algoritmizace}
+\begitems
+* {\bf Porozumnění problému} - Prvním krokem je důkladné porozumění tomu, jeho podstatu a co vlastně problém vyžaduje. To zahrnuje definování vstupních a výstupních dat a specifikaci požadavků.
+* {\bf Analýza problému} - V tomto kroku se zaměřujeme na rozložení problému na menší části a pochopení, jak jednotlivé části souvisejí. Identifikujeme podproblémy a zjistíme, jaký přístup bude nejvhodnější pro jejich řešení.
+* {\bf Návrh algoritmu} - Vytvoříme plán, jakým způsobem problém vyřešit. Zvolíme vhodné kroky a struktury, které pomohou dosáhnout správného výsledku. Tento krok se často realizuje pomocí pseudokódu, diagramů nebo popisu v přirozeném jazyce.
+* {\bf Implementace algoritmu} - Jakmile máme dobře navržený algoritmus, přistoupíme k jeho implementaci/realizaci v konkrétním programovacím jazyce. Tento krok zahrnuje přenos algoritmu do kódu, který bude vykonávat počítač.
+* {\bf Testování implementace} - Po napsání kódu algoritmus testujeme, abychom ověřili, že implementace funguje podle očekávání, bez chyb a že vykonává algoritmus efektivně.
+\enditems
+
+\secc {Dekompozice a zobecnění problému}
+V praxi je složité a nepraktické řešit složité problémy jako celek, jednodušší a přehlednější je použít dekompozici a využít abstrahování informací k zobecnění problému. Rozložení složitějších problémů na jednodušší je jednou z nejdůležitějších technik v algoritmizaci. Tento proces, známý také jako dekompozice, spočívá v rozdělení velkého problému na menší, lépe zvládnutelné podproblémy, které jsou jednodušší k pochopení a řešení. Každý z těchto podproblémů je řešen samostatně, což následně vede k řešení celkového problému.
+
+Zobecnění řešení znamená nalezení obecného postupu nebo vzoru, který lze aplikovat na více různých problémů, nejen na jeden konkrétní. Tato technika je velmi užitečná, protože umožňuje vytvářet flexibilní a univerzální algoritmy, které mohou být použity na širokou škálu problémů. Zobecnění často znamená zjednodušení problému tak, že se zaměříme na jeho základní vlastnosti a ignorujeme detaily, které se mohou měnit mezi jednotlivými případy. Díky tomu vytvoříme algoritmy, které nejsou závislé na konkrétním zadání, ale jsou aplikovatelné na širokou paletu problémů.
+

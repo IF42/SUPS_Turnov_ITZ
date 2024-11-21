@@ -1,2 +1,2 @@
-# SUPS
-SUPŠ Turnov ITZ
+# SUPŠ Turnov ITZ
+Materiály do výuky informatiky
