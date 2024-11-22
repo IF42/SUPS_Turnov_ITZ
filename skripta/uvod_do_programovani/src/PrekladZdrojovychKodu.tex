@@ -1,0 +1,122 @@
+\chap {Proces překladu zdrojových kódů}
+Programy napsané v jazyce C (a dalších programovacích jazycích) jsou nejprve vytvořeny jako zdrojové kódy - textové soubory s příponou {\it .c} obsahující instrukce v srozumitelném formátu pro člověka. Tyto zdrojové kódy ale počítač neumí přímo vykonat. Aby se program stal spustitelným, musí projít procesem překladu (kompilace), který převede zdrojový kód do formátu, kterému procesor rozumí. Tento proces má několik fází.
+
+\vskip 5mm
+\picw=.9\hsize \centerline{\inspic {\imgpath compilation_process.png} }\nobreak\medskip
+\caption/f Proces překladu zdrojových kódů
+
+\sec {Fáze překladu} 
+Překlad zdrojového kódu do spustitelného programu zahrnuje několik kroků, které zajišťují správnost a efektivitu výsledného programu.
+
+\secc {Preprocesor (úprava zdrojového kódu)}
+První fáze překladu je preprocesing. V této fázi se zdrojové kódy předpřipraví pro proces kompilace. To obnáší odstranění komentárů a rozbalelení příkazů pro preprocesor, které začínající znakem \# (tzv. preprocesorové direktivy).
+
+\secc {Překlad (kompilace do strojově nezávislého kódu)}
+V této fázi překladač analyzuje a převádí zdrojový kód na tzv. {\bf objektový kód}. Objektový kód obsahuje strojový kód procesoru, ale nejedná se ještě o spustitelný kód.
+
+\secc {Linkování (spojování a vytváření spustitelného souboru)}
+Linker (spojovací program) je zodpovědný za spojení všech objektových souborů a knihoven do jednoho spustitelného programu.
+
+\sec {Založení projektu}
+Založení softwarového projektu v základu zanená vytvořit {\bf projektovou složku} (složku ve které se nacházejí zdrojové kódy a další pomocné soubory). V editoru Visual Studio Code se projektový adresář vytvoří a otevře z hlavního menu: $ File \rightarrow Open Folder$
+
+\vskip 5mm
+\picw=.5\hsize \centerline{\inspic {\imgpath vs_code_open_folder.png} }\nobreak\medskip
+\caption/f Otevření projektové složky
+
+Otevře se okno pro výběr projektové složky. V tuto chvíli je možné buď otevřít existující projekt a pokračovat v práci a nebo je možné vytvořit složku pro založení nového projektu. Nová projektová složka se zpravidla jmenuje stejně jako nově založený projekt.
+
+\vskip 5mm
+\picw=.7\hsize \centerline{\inspic {\imgpath vs_code_choose_folder.png} }\nobreak\medskip
+\caption/f Výběr/založení projektové složky
+
+Po otevření projektové složky se načte její obsah do přehledového okna Visual studia
+
+\vskip 5mm
+\picw=.5\hsize \centerline{\inspic {\imgpath vs_code_create_file.png} }\nobreak\medskip
+\caption/f Vytvoření nového souboru
+
+\secc {Základní struktura projektu v jazyce C}
+Každý projekt v jazyce C se skládá minimálně z jednoho zdrojového souboru, který se standardně navývá {\it main.c}. V tomto souboru se nachází tzv. {\bf funkce main}, kterou začíná vykonávání spuštěného programu:
+
+\begtt
+#include <stdio.h>
+
+int main(void) {
+    printf("Program exit..\n");
+    return 0;
+}
+\endtt
+
+Pro přeložení zdrojového kódu je třeba nejprve otevřít v editoru VS Code terminálový vstup z hlavního menu: $Terminal \rightarrow New Terminal$
+
+\vskip 5mm
+\picw=.5\hsize \centerline{\inspic {\imgpath vs_code_open_terminal.png} }\nobreak\medskip
+\caption/f Otevření terminálového vstupu
+
+K překladu zdrojového souboru main.c slouží kompilátor gcc, kterému je předán název vstupního souboru:
+
+\begtt
+$ gcc main.c
+\endtt
+
+V tuto chvíli, pokud je v souboru main.c správně zapsán a uložen kód funkce main, by výsledkem překladu vzniknout soubor pojmenovaný {\it a.exe} (na systémech GNU Linux a Mac OS {\it a.out}), který tvoří nově vytvořený spustitelný soubor. Tento soubor lze spustit z terminálového vstupu zavoláním jeho jména:
+
+\begtt
+$ ./a.exe
+\endtt
+
+Výstupní spustitelný soubor lze při překladu automaticky pojmenovat pomocí nastavení $ -o <jméno>$, které se předá překladači gcc:
+
+\begtt
+$ gcc main.c -o <jméno>
+\endtt
+
+V tuto chvíli vznikne překladem spustitelný soubor, který bude pojmenovaný jménem zadaným při překladu. Protože každý projekt má svou vlastní strukturu, to znamená obsahuje různé zdrojové soubory a různě rozmístěné, je nutné překladači gcc předat různá nastavení a odkazy na soubory. Aby si programátor nemusel toto nastavení pametovat a složitě jej zadávat do terminálového vstupu, je možné vytvořit tzv. {\bf překladová pravidla}, která se uloží do souboru {\bf Makefile}. Jednotlivá překladová pravidla se zapisují do souboru Makefile ve formátu:
+
+\begtt
+<název překladového pravidla>:
+    <obsah překladového pravidla>
+\endtt
+
+Obsah překladového pravidla musí být vždy odsazen od začátku řádku pomocí klávesy {\it Tab}. V případě, že by obsah překladového pravidla nebyl odsazen od začátku řádku a nebo byl odsazen pomocí mezer, program make, by hlásil chyby.
+
+V případě, že v každém projektu budeme existovat soubor Makefile, který bude obsahovat stejně pojmenovaná pravidla, ale jejich obsah bude specifický pro daný projekt, získáme jednotný způsob jak překládat všechny naše projekty a nemusí nás zajímat jaké nastavení pro je potřeba. Standardně je dobré vytvořit tři překladová pravidla: build, exec a clean. Základní obsah souboru Makefile by měl být:
+
+\begtt
+TARGET=jmeno_vystupniho_souboru
+
+build:
+    gcc main.c -o $(TARGET)
+
+exec: build
+    ./$(TARGET)
+
+clean:
+    rm -vf ./$(TARGET)
+\endtt
+
+Soubor Makefile si pak načte program {\bf make} a umožňuje spustit konkrétní překladové pravidlo, jehož název se zadá jako vstupní parametr:
+
+\begtt
+$ make <název překladového pravidla>
+\endtt
+
+Pro překlad projektu slouží příkaz:
+\begtt
+$ make build
+\endtt
+
+Pro překlad a současně sputění slouží příkaz:
+
+\begtt
+$ make exec
+\endtt
+
+
+A pro odstranění nepotřebných dočasných souborů v projektovém adresáři slouží příkaz:
+\begtt
+$ make clean
+\endtt
+
+

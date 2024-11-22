@@ -1,0 +1,56 @@
+\chap {Reprezentace dat v paměti PC}
+Počítače jsou postaveny na elektronických obvodech, které pracují se dvěma základními stavy:
+
+\begitems
+* {\bf Zapnuto} - proud prochází, což odpovídá logické hodnotě 1.
+* {\bf Vypnuto} - proud neprochází, což odpovídá logické hodnotě 0.
+\enditems
+
+Tento dvoustavový systém je jednoduchý, levný na výrobu a velmi spolehlivý. Složitější systémy (například desetistavové) by vyžadovaly přesnější měření a byly by náchylnější k chybám kvůli šumu nebo odchylkám v signálu. Kombinací těchto nul a jedniček lze vytvořit složitější struktury, které reprezentují různé typy informací. 
+
+\sec {Jednotky paměti}
+\secc {Bit}
+{\bf Bit} (zkratka z "binary digit") je základní jednotka informace v počítači. Bit může mít pouze dvě hodnoty: 0 nebo 1. 
+
+\secc {Bajt}
+Pokud se spojí dohromady 8 bitů, lze získat 256 kombinací hodnot jednotlivých bitů, které mohou kódovat hodnoty od 0 do 255. Spojení 8 bitů se říká {\bf Bajt}. Pro reprezentaci paměťové kapacity úložných zařízení se běžně používají násobky bajtů:
+
+\begitems
+* {\bf Kilobajt} - 1024 bajtů
+* {\bf Megabajt} - 1024 kilobajtů
+* {\bf Gigabajt} - 1024 megabajtů
+* ...
+\enditems
+
+\sec {Kódování dat v binární soustavě}
+Způsobů jak kódovat data v binární soustavě je více a každý z nich se využívá ve specifických případech. V paměti počítačů se využívá kódování dat založené na číselných soustavách. Číselná soustava je způsob, jakým zapisujeme a reprezentujeme čísla pomocí určitých symbolů (číslic). Každá číselná soustava má {\bf základ} (například 2 pro dvojkovou nebo 10 pro desítkovou), který určuje, kolik různých číslic se používá a jak se čísla skládají. {\bf Číselný řád} označuje pozici číslice v čísle, která určuje její hodnotu podle mocniny základu číselné soustavy. Například v desítkové soustavě jsou číselné řády:
+\begitems 
+* {\bf Jednotky} - $10^0 = 1$
+* {\bf Desítky} - $10^1 = 10$
+* {\bf Stovky} - $10^2 = 100$
+* {\bf Tisíce} - $10^3 = 1000$
+* ...
+\enditems
+
+Každé číslo pak lze zapsat v polynomiálním tvaru. {\bf Polynomiální tvar} čísla je způsob, jak zapsat číslo jako součet jednotlivých číslic vynásobených jejich hodnotou podle jejich pozice (řádu). Například:
+$$
+123_{(10)} = (10^2 \cdot 1) + (10^1 \cdot 2) + (10^0 \cdot 3)
+$$
+
+Stejným způsobem lze definovat číselné řády také v binární soustavě, pouze jako základ zvolíme číslo 2:
+
+\begitems 
+* {\bf Jednotky} - $2^0 = 1$
+* {\bf Desítky} - $2^1 = 2$
+* {\bf Stovky} - $2^2 = 4$
+* {\bf Tisíce} - $2^3 = 8$
+* ...
+\enditems
+
+Stejným způsobem pak můžeme zakódovanou hodnotu v dvojkové soustavě převést na hodnotu v desítkové soustavě:
+
+$$
+1011_{(2)} = (2^3 \cdot 1) + (2^2 \cdot 0) + (2^1 \cdot 1) + (2^0 \cdot 1) = 8 + 0 + 2 + 1 = 11_{(10)}
+$$
+
+

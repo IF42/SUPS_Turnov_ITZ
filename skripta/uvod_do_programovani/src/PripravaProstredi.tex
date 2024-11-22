@@ -1,0 +1,62 @@
+\chap {Příprava prostředí pro vývoj v jazyce C}
+Prostředí pro programování v jazyce C je možné připravit na jakémkoli počítači s pomocí nástrojů, které jsou zdarma ke stažení z internetu. V základu se jedná o kompilátor {\bf gcc}, který má za úkol převést zdrojový kód na spustitelný soubor a nástroj pro usnadnění a automatizaci překladu {\bf make}. 
+
+\sec {Příprava prostředí na MS Windows}
+Na systémech MS Windows je nejjednodušší způsob pro nastavení prostředí pro vývoj v jazyce C použít program {\bf msys2} (\url {https://www.msys2.org/}). Tento program vytvoří strukturu nástrojů, které jsou k dispozici na systémech Linux. Po instalaci je třeba nejprve třeba nastavit systém, aby mohl vyhledat nástroje, které se do počítače nainstalovali. K tomu je nutné upravit {\bf proměnnou prostředí PATH}, do které je třeba přidat dvě nové cesty. Proměnné prostředí je možně upravovat zadáním příkazu do nabídky start: {\it upravit proměnné prostředí systému}
+
+\vskip 5mm
+\picw=.7\hsize \centerline{\inspic {\imgpath setup_environment_variables.png} }\nobreak\medskip
+\caption/f Nastavení proměnné prostředí Path
+
+Poté se otevře okno pro nastavení proměnných prostředí ve kterém je tlačítko {\bf Proměnné prostředí}, které otevře okno s proměnnými prostředí, které jsou v systému vytvořené. V sekce {\bf Uživatelské proměnné} se nachází výčet proměnných prostředí pro aktuálně přihlášeného uživatele a mezi nimi se nachází proměnné {\bf Path}. Po jejím označení je třeba stisknout tlačítko upravit. Následně by se mělo otevřít okno pro úpravu hodnot v této proměnné. Nyní je nutné přidat dvě nové cesty pomocí tlačítka {\bf Nový} a nastavit jejich hodnotu na: 
+\begtt 
+C:\msys2\usr\bin 
+\endtt 
+ 
+\begtt 
+C:\msys2\mingw64\bin 
+\endtt 
+
+Následně stačí jen vše uložit stiskem tlačítka OK a cesty k nástrojům systému msys2 by měly být nastavené.
+
+\vskip 5mm
+\picw=.9\hsize \centerline{\inspic {\imgpath environment_variables.png} }\nobreak\medskip
+\caption/f Okno pro nastavení proměnných prostředí
+
+Nově nastavené cesty je možné věřit otevřením příkazové řádky pomocí zadání příkazu {\it cmd} do nabídky start a zadat příkaz, který by měl provést aktualizaci systému msys2:
+\begtt
+$ pacman -Syu
+\endtt
+
+(Prosím nekopírujte příkaz se znakem \$, ten značí že se jedná o terminálový vstup)\par
+V případě, že jsou cesty správně nastavené by se měl spustit balíčkový správce {\it pacman}, který slouží k instalaci a aktualizaci programů do prostředí msys2 a požádá vás o potvrzení spuštění instalace aktualizací:
+
+\vskip 5mm
+\picw=.9\hsize \centerline{\inspic {\imgpath msys2_update.png} }\nobreak\medskip
+\caption/f Okno pro nastavení proměnných prostředí
+
+Aktualizace a jiné instalace se potvrdí prostým stiskem klávesy {\it Enter}.
+
+Po aktualizaci prostředí msys2 je potřeba nainstalovat kompilátor pro jazyk C {\bf gcc}, který má za úkol převést zdrojový k na spustitelný a nástroj pro automatizaci překladu {\bf make}. To se provede zadáním příkazu:
+\begtt
+$ pacman -S gcc make
+\endtt
+
+\sec {Příprava prostředí na GNU Linux}
+Na systémech Linux bývá často nástroj gcc a make dostupný již v základní instalaci. Z tohoto důvodu je příprava prostředí na vývoj v jazyce C na systémech Linux snazší než na jiných systémech. Pokud nástroje gcc a make není v základní instalaci, záleží na distribuci instalovaného Linuxového systému. 
+
+Na linuxové distribuci Ubuntu je možné nástroje gcc a make instalovat buď prostřednictvím nástroje {\bf Ubuntu Software Center} a nebo pomocí příkazové rádky:
+\begtt
+$ sudo apt install gcc make
+\endtt
+
+\sec {Příprava prostředí na Mac OS}
+
+\sec {IDE}
+Poté co jsou v systému nainstalované nástroje gcc a make je prostředí pro vývoj programů vjazyce C připraveno k použití, ale je potřeba nainstalovat tzv. IDE (Integrated development environment), zjednodušeně řečeno textový editor, který obsahuje nástroje pro zjednodušení psaní zdrojových kódu. Nejjednodušší IDE je {\bf Visual studio code} (\url {https://code.visualstudio.com/}). Jeho instalace je jednoduchá a přímočará. 
+
+\vskip 5mm
+\picw=.9\hsize \centerline{\inspic {\imgpath vs_code.png} }\nobreak\medskip
+\caption/f Visual studio code
+
+
