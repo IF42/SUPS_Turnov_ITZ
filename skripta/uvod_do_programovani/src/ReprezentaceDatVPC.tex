@@ -22,8 +22,8 @@ Pokud se spojí dohromady 8 bitů, lze získat 256 kombinací hodnot jednotlivý
 * ...
 \enditems
 
-\sec {Kódování dat v binární soustavě}
-Způsobů jak kódovat data v binární soustavě je více a každý z nich se využívá ve specifických případech. V paměti počítačů se využívá kódování dat založené na číselných soustavách. Číselná soustava je způsob, jakým zapisujeme a reprezentujeme čísla pomocí určitých symbolů (číslic). Každá číselná soustava má {\bf základ} (například 2 pro dvojkovou nebo 10 pro desítkovou), který určuje, kolik různých číslic se používá a jak se čísla skládají. {\bf Číselný řád} označuje pozici číslice v čísle, která určuje její hodnotu podle mocniny základu číselné soustavy. Například v desítkové soustavě jsou číselné řády:
+\sec {Číselné soustavy}
+{\bf Číselná soustava} je způsob, jakým jsou číslné hodnoty zapisovány a reprezentována pomocí určitého počtu symbolů. Například běžně používaná desítková číselná soustava má 10 číslic (0, 1, .. 9). Každá soustava má {\bf základ} (například 2 pro dvojkovou nebo 10 pro desítkovou), který určuje, kolik různých číslic se používá a jak se čísla skládají. V případě, že je třeba zapsat v číselné soustavě hodnotu, která je větší než jakou je možné vyjádřit pomocí základních číslic číselné soustavy, je nutné provést přechod do výšícho číselného řádu. {\bf Číselný řád} označuje pozici číslice v čísle, která určuje její hodnotu podle mocniny základu číselné soustavy. Například v desítkové soustavě jsou číselné řády:
 \begitems 
 * {\bf Jednotky} - $10^0 = 1$
 * {\bf Desítky} - $10^1 = 10$
@@ -33,6 +33,7 @@ Způsobů jak kódovat data v binární soustavě je více a každý z nich se v
 \enditems
 
 Každé číslo pak lze zapsat v polynomiálním tvaru. {\bf Polynomiální tvar} čísla je způsob, jak zapsat číslo jako součet jednotlivých číslic vynásobených jejich hodnotou podle jejich pozice (řádu). Například:
+
 $$
 123_{(10)} = (10^2 \cdot 1) + (10^1 \cdot 2) + (10^0 \cdot 3)
 $$
@@ -52,5 +53,52 @@ Stejným způsobem pak můžeme zakódovanou hodnotu v dvojkové soustavě přev
 $$
 1011_{(2)} = (2^3 \cdot 1) + (2^2 \cdot 0) + (2^1 \cdot 1) + (2^0 \cdot 1) = 8 + 0 + 2 + 1 = 11_{(10)}
 $$
+
+\sec {Reprezentace dat v číselné podobě}
+Počítače pracují výhradně s čísly. Ať už jde o text, obrázky, zvuk, nebo jiné informace, vše musí být převedeno na čísla, protože pouze ta dokážou počítače zpracovat. Tento převod umožňuje počítačům být univerzálním nástrojem pro zpracování nejrůznějších druhů dat.
+
+\secc {Text}
+Text v počítači je reprezentován jako sekvence znaků a každý znak je reprezentován určitou číselnou hodnotou. Aby každý počítač věděl jak interpretovat danou hodnotu reprezentující znak, vznikla standardizovaná tabulka znaků a k nim přiřazených číselných hodnot, které se říká ASCII tabulka.
+
+\table{|l | r|| l | r || l | r || l | r |}{\crl
+{\bf Dec} & {\bf Znak} & {\bf Dec} & {\bf Znak}   & {\bf Dec} & {\bf Znak}   & {\bf Dec} & {\bf Znak} \crl
+0         & NULL       & 32        & Mezera       & 64        & @            & 96        & `          \crl
+1         & SOH        & 33        & !            & 65        & A            & 97        & a          \crl
+2         & STX        & 34        & "            & 66        & B            & 98        & b          \crl 
+3         & ETX        & 35        & \#           & 67        & C            & 99        & c          \crl
+4         & EOT        & 36        & \$           & 68        & D            & 100       & d          \crl
+5         & ENQ        & 37        & \%           & 69        & E            & 101       & e          \crl
+6         & ACK        & 38        & \&           & 70        & F            & 102       & f          \crl
+7         & BEL        & 39        & '            & 71        & G            & 103       & g          \crl
+8         & BS         & 40        & (            & 72        & H            & 104       & h          \crl
+9         & HT         & 41        & )            & 73        & I            & 105       & i          \crl
+10        & LF         & 42        & *            & 74        & J            & 106       & j          \crl
+11        & VT         & 43        & +            & 75        & K            & 107       & k          \crl
+12        & FF         & 44        & ,            & 76        & L            & 108       & l          \crl
+13        & CR         & 45        & -            & 77        & M            & 109       & m          \crl
+14        & SO         & 46        & .            & 78        & N            & 110       & n          \crl
+15        & SI         & 47        & /            & 79        & O            & 111       & o          \crl
+16        & DLE        & 48        & 0            & 80        & P            & 112       & p          \crl
+17        & DC1        & 49        & 1            & 81        & Q            & 113       & q          \crl
+18        & DC2        & 50        & 2            & 82        & R            & 114       & r          \crl
+19        & DC3        & 51        & 3            & 83        & S            & 115       & s          \crl
+20        & DC4        & 52        & 4            & 84        & T            & 116       & t          \crl
+21        & NAK        & 53        & 5            & 85        & U            & 117       & u          \crl
+22        & SYN        & 54        & 6            & 86        & V            & 118       & v          \crl
+23        & ETB        & 55        & 7            & 87        & W            & 119       & w          \crl
+24        & CAN        & 56        & 8            & 88        & X            & 120       & x          \crl
+25        & EM         & 57        & 9            & 89        & Y            & 121       & y          \crl
+26        & SUB        & 58        & :            & 90        & Z            & 122       & z          \crl
+27        & ESC        & 59        & ;            & 91        & [            & 123       & $\{$       \crl
+28        & FS         & 60        & $<$          & 92        & $|$          & 124       & $|$        \crl   
+29        & GS         & 61        & =            & 93        & ]            & 125       & $\}$       \crl
+30        & RS         & 62        & $>$          & 94        & \char94      & 126       & \char126   \crl
+31        & US         & 63        & ?            & 95        & \_           & 127       & DEL        \crl  
+}
+
+Takže například text, "Hello World" se v ascii zapíše pomocí sekvence čísel: 72, 101, 108, 108, 32, 87, 111, 114, 108, 100.
+
+\secc {Obrázky}
+Obrázky jsou složené z mřížky barevných bodů, kterým se říká pixely. Rozměr obrázku například 800x600 znameá, že obrázek je velký 800 pixelů na výšku a 600 pixelů na šířku. Celkový počet pixelů v obrázku je tedy roven součinu pixelové výšky a šířky například: $800 * 600 = 480 000$ pixelů. Každý pixel obsahuje kombinaci tří základních barev RGB (Red, Gree, Blue). Každá hodnota určující poměr základní barvy je reprezentována jedním bajtem, který umožňuje reprezentovat číselný poměr ve výsledném odstínu: $\{R=200, G=150, B=10\}$. Pixel RGB, je tedy 3-bajtová (24-bitová) hodnota, která umožňuje reprezentovat: $2^24 = 256 \cdot 256 \cdot 256 = 16777216$ unikátních barevných odstínů.
 
 
