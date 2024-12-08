@@ -1,1 +1,27 @@
 \chap {Proměnné}
+Paměť RAM slouží k uložení nejen strojových instrukcí spuštěného programu, ale také k uložení dočasných dat, které si program při svém vykonávání vytváří. Taková dočasná data můžou být mezivýsledky výpočtů, obsah načteného souboru z disku, ... K práci s daty uloženými v paměti RAM slouží tzv. {\bf programové proměnné}. V programování jsou proměnné jedním z nejzákladnějších a nejdůležitějších konceptů. Zjednodušeně si proměnnou lze představit jako pojmenované místo v RAM paměti, na které je možné data ukládat a následně opět přečíst. 
+
+
+\sec {Datové typy}
+
+
+\sec {Primitivní datové typy}
+V jazyce C jsou definované {\bf primitivní datové typy}, tedy datové typy které jsou přímo vestavěnné v kompilátoru jazyka C a nedají se dále rozdělit na jednodušší datové typy (viz. datové struktury). Mezi primitivní datové typy v jazyce C patří:
+\begitems
+* {\bf char} - 1 bajt - znak / celé číslo
+* {\bf short} - 2 bajty - celé číslo
+* {\bf int} - 4 bajty - celé číslo
+* {\bf long} - 8 bajtů - celé číslo
+* {\bf long long} - 16 bajtů - celé číslo 
+* {\bf float} - 4 bajty - desetinné číslo
+* {\bf double} - 8 bajtů - desetinné číslo
+* {\bf long double} - 16 bajtů desetinné číslo  
+\enditems
+
+Při rozhodování, který primitivní datový typ použít v jazyce C, je klíčové zvážit požadavky na paměť, rozsah hodnot a účel proměnné. Jednoduše řeščeno, když nevíš jaký datový typ pro celá čísla použít, použij {\it int}, protože má obvykle vyvážený poměr mezi požadavky na paměť a rozsahem hodnot. Pokud ale pracujete s velkými čísly, použijte long nebo long long, zatímco pro úsporu paměti u menších hodnot můžete zvolit short nebo dokonce char. Pro čísla s desetinnou částí je vhodné použít float nebo double, přičemž float je úspornější, zatímco double poskytuje vyšší přesnost. Typ unsigned lze zvolit, pokud víte, že hodnota bude vždy kladná, čímž se maximalizuje rozsah. Správná volba datového typu nejen zlepší efektivitu programu, ale také zvýší jeho čitelnost a bezpečnost.
+
+\sec {Deklarace a definice proměnné}
+
+
+\sec {Znaménkový celočíselný datový typ}
+

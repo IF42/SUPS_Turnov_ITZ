@@ -42,6 +42,11 @@ Po aktualizaci prostředí msys2 je potřeba nainstalovat kompilátor pro jazyk 
 $ pacman -S gcc make
 \endtt
 
+Některé knihonvy, které jsou použity při programování jsou uloženy na specifické cestě v systému. Ta se může lišit v závislosti na použitém systému (MS Windows s prostředím msys2, GNU Linux, Mac OS). Z tohoto důvodu se využívá pro vyhledání cest k instalovaným knihovnám nástroj {\bf pkg-config}. Nástroj pkg-config využívá malé soubory, které osahují konfiguraci pro knihovnu instalovanou v lokálním systému, které mají příponu .pc a jsou uloženy v konfiguračním adresaři. Na systému msys2, ale nástroj pkg-config neví kde má tyto soubory hledat a je nutné mu je nastavit. K tomu slouží proměnná prostředí {\bf PKG\_CONFIG\_PATH}, kterou je nutné nastavit stejně jako proměnnou prostředí path v předchozím bodě. V tomto případě, jsou konfigurační soubory uloženy v adresáři: 
+\begtt
+C:\msys2\ming64\lib\pkgconfig
+\endtt
+
 \sec {Příprava prostředí na GNU Linux}
 Na systémech Linux bývá často nástroj gcc a make dostupný již v základní instalaci. Z tohoto důvodu je příprava prostředí na vývoj v jazyce C na systémech Linux snazší než na jiných systémech. Pokud nástroje gcc a make není v základní instalaci, záleží na distribuci instalovaného Linuxového systému. 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Built by MSYS2 project) (preloaded format=pdfcsplain 2024.11.11)  22 NOV 2024 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdfcsplain 2024.11.9)  27 NOV 2024 09:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,8 @@ entering extended mode
 (./src/UvodDoProgramovani.tex The format: csplain <Mar. 2022>.
 The cs-fonts are preloaded and A4 size implicitly defined.
 The utf8->iso8859-2 re-encoding of Czech+Slovak alphabet activated by encTeX
-(c:/Users/petrh/texmf/tex/plane/tmac/tmac.tex
+(/home/petr/texmf/tex/plain/tmac/tmac.tex
+This is OPmac (Olsak's Plain macros), version <Apr. 2020>
 \tmpnum=\count28
 \tmpdim=\dimen16
 \iindent=\dimen17
@@ -18,8 +19,7 @@ The utf8->iso8859-2 re-encoding of Czech+Slovak alphabet activated by encTeX
 \titskip=\skip18
 \ptunit=\dimen22
 \fontdim=\dimen23
-
-(c:/msys64/mingw64/share/texmf-dist/tex/csplain/fonts/ams-math.tex
+(/usr/share/texmf-dist/tex/csplain/fonts/ams-math.tex
 FONT: AMS math fonts - \mathchardef's prepared, 12 math families preloaded.
 \ptmunit=\dimen24
 )
@@ -63,213 +63,13 @@ The \^, \`, \', \v, \" and \r expands to characters by ISO-8859-2.
 
 )
 cs hyphenation used (\language=5). \frenchspacing is set on. (./src/Title.tex
-[1{c:/msys64/mingw64/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-[2]) (./src/Uvod.tex) [1] (./src/ZakladyAlgoritmizace.tex [2]
-Underfull \vbox (badness 2726) has occurred while \output is active
-\vbox(731.23584+2.33331)x455.24411, glue set 3.01082
-.\glue(\topskip) 0.0
-.\hbox(10.0006+0.0)x455.24411, glue set 341.71217fil
-..\write0<3>{\string \Xtoc {2}{\noexpand \rm }{2.4.1}{Sekvence}{\the \pageno }}
-
-..\tenbf 2
-..\tenbf .
-..\tenbf 4
-..\tenbf .
-..\tenbf 1
-..\glue 16.20099
-..\tenbf S
-..\tenbf e
-..\tenbf k
-..\tenbf v
-..\kern-0.45003
-..\tenbf e
-..\tenbf n
-..\tenbf c
-..\tenbf e
-..\penalty 10000
-..\glue(\parfillskip) 0.0 plus 1.0fil
-..\glue(\rightskip) 0.0
-.\penalty 10000
-.\glue 8.0 plus 2.6665 minus 2.6665
-.\penalty 11333
-.\glue(\parskip) 0.0 plus 1.0
-.\glue(\baselineskip) 7.73334
-.\hbox(8.26666+2.33331)x455.24411, glue set - 0.9624
-..\tenrm S
-..\tenrm e
-..\tenrm k
-..\tenrm v
-..\kern-0.32639
-..\tenrm e
-..\tenrm n
-..\tenrm c
-..\tenrm e
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm j
-..\tenrm e
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm d
-..\tenrm e
-..\tenrm ^^L (ligature fi)
-..\tenrm n
-..\tenrm o
-..\kern-0.32639
-..\tenrm v
-..\kern-0.32639
-..\tenrm a
-..\tenrm n
-..\tenrm á
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm j
-..\tenrm a
-..\tenrm k
-..\kern-0.32639
-..\tenrm o
-..etc.
-.\penalty 20000
-.\glue(\baselineskip) 5.40002
-.\hbox(8.26666+2.33331)x455.24411, glue set 289.70139fil
-..\tenrm p
-..\kern0.32639
-..\tenrm o
-..\tenrm ř
-..\tenrm a
-..\tenrm d
-..\tenrm í
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm v
-..\kern-0.32639
-..\tenrm e
-..\tenrm d
-..\tenrm o
-..\tenrm u
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm k
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm ř
-..\tenrm e
-..\tenrm š
-..\tenrm e
-..\tenrm n
-..\tenrm í
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm p
-..\tenrm r
-..\tenrm o
-..\tenrm b
-..\tenrm l
-..\tenrm é
-..etc.
-.\glue 14.22636
-.\glue(\lineskip) 1.0
-.\hbox(175.3831+0.0)x455.24411, glue set 204.85847fil
-..\glue 0.0 plus 1.0fil minus 1.0fil
-..\hbox(175.3831+0.0)x45.52718
-...\pdfrefximage(175.3831+0.0)x45.52718
-..\glue 0.0 plus 1.0fil minus 1.0fil
-.\penalty 10000
-.\glue 8.0 plus 2.6665 minus 2.6665
-.\glue(\parskip) 0.0 plus 1.0
-.\glue(\baselineskip) 7.66669
-.\hbox(8.33331+2.33331)x455.24411, glue set 117.92604fil
-..\glue(\leftskip) 20.0 plus 1.0fil
-..\tenbf O
-..\tenbf b
-..\tenbf r
-..\tenbf á
-..\tenbf z
-..\tenbf e
-..\tenbf k
-..\glue 4.5 plus 2.25 minus 1.5
-..\tenbf 2
-..\tenbf .
-..\tenbf 4
-..\tenbf .
-..\tenbf 1
-..\kern 5.87494
-..\tenrm D
-..\tenrm i
-..\tenrm a
-..\tenrm g
-..\tenrm r
-..\tenrm a
-..\tenrm m
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm s
-..\tenrm e
-..\tenrm k
-..\tenrm v
-..\kern-0.32639
-..\tenrm e
-..\tenrm n
-..etc.
-.\penalty -200
-.\glue 8.0 plus 2.6665 minus 2.6665
-.\glue(\parskip) 0.0 plus 1.0
-.\glue(\baselineskip) 6.86726
-.\hbox(10.0006+0.0)x455.24411, glue set 354.76297fil
-..\write0<3>{\string \Xtoc {2}{\noexpand \rm }{2.4.2}{Selekce}{\the \pageno }}
-..\tenbf 2
-..\tenbf .
-..\tenbf 4
-..\tenbf .
-..\tenbf 2
-..\glue 16.20099
-..\tenbf S
-..\tenbf e
-..\tenbf l
-..\tenbf e
-..\tenbf k
-..\kern-0.45003
-..\tenbf c
-..\tenbf e
-..\penalty 10000
-..\glue(\parfillskip) 0.0 plus 1.0fil
-..\glue(\rightskip) 0.0
-.\penalty 10000
-.\glue 8.0 plus 2.6665 minus 2.6665
-.\penalty 11333
-.\glue(\parskip) 0.0 plus 1.0
-.\glue(\baselineskip) 7.73334
-.\hbox(8.26666+2.33331)x455.24411, glue set - 0.70656
-..\tenrm S
-..\tenrm e
-..\tenrm l
-..\tenrm e
-..\tenrm k
-..\kern-0.32639
-..\tenrm c
-..\tenrm e
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm u
-..\tenrm m
-..\tenrm o
-..\tenrm ž
-..\tenrm ň
-..\kern-0.32639
-..\tenrm u
-..\tenrm j
-..\tenrm e
-..\glue 3.91663 plus 1.95831 minus 1.30554
-..\tenrm r
-..\tenrm o
-..\tenrm z
-..\tenrm h
-..\tenrm o
-..\kern0.32639
-..\tenrm d
-..\tenrm o
-..\kern-0.32639
-..\tenrm v
-..\kern-0.32639
-..etc.
-.etc.
-
- [3 <./img/uml_sequence.png> <./img/uml_selection.png>] [4 <./img/uml_iteration
-.png> <./img/uml_conditional_iteration.png>]) [5] (./src/JazykC.tex) [6]
-(./src/PripravaProstredi.tex [7 <./img/setup_environment_variables.png>]
-[8 <./img/environment_variables.png> <./img/msys2_update.png>]) [9 <./img/vs_co
-de.png>] (./src/PrekladZdrojovychKodu.tex [10 <./img/compilation_process.png>]
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]) (./src/Uvod.tex
+) [1] [2] (./src/ZakladyAlgoritmizace.tex [3] [4 <./img/uml_sequence.png> <./im
+g/uml_selection.png>] [5 <./img/uml_iteration.png> <./img/uml_conditional_itera
+tion.png>]) [6] (./src/JazykC.tex) [7] (./src/PripravaProstredi.tex [8 <./img/s
+etup_environment_variables.png>] [9 <./img/environment_variables.png> <./img/ms
+ys2_update.PNG>]) [10 <./img/vs_code.png>] (./src/PrekladZdrojovychKodu.tex
+[11 <./img/compilation_process.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active
 \vbox(731.23584+2.33331)x455.24411, glue set 22.56664
 .\glue(\topskip) 0.0
@@ -507,24 +307,1812 @@ Underfull \vbox (badness 10000) has occurred while \output is active
 ..\tenrm l
 ..etc.
 
- [11 <./img/vs_code_open_folder.png> <./img/vs_code_choose_folder.png>] [12 <./
-img/vs_code_create_file.png> <./img/vs_code_open_terminal.png>] [13]) [14]
-(./src/ReprezentaceDatVPC.tex [15]) [16] (./src/DatoveTypy.tex) [17]
-(./src/Promenne.tex) [18] (./src/RidiciKonstrukce.tex) [19] (./src/Funkce.tex)
-[20] (./src/DatoveStruktury.tex) [21] (./src/Ukazatele.tex) [22]
-(./src/Preprocesor.tex) [23] (./src/SouboryARetezce.tex) [24]
-(./src/ChybyVProgramu.tex) [25] )<c:/msys64/mingw64/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1/
-public/cs/csbx12.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cs/
-csr10.pfb><c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cs/csr12.pfb><
-c:/msys64/mingw64/share/texmf-dist/fonts/type1/public/cs/csr8.pfb><c:/msys64/mi
-ngw64/share/texmf-dist/fonts/type1/public/cs/csti12.pfb><c:/msys64/mingw64/shar
-e/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
-Output written on pdf/UvodDoProgramovani.pdf (27 pages, 1135951 bytes).
+ [12 <./img/vs_code_open_folder.png> <./img/vs_code_choose_folder.png>] [13 <./
+img/vs_code_create_file.png> <./img/vs_code_open_terminal.png>] [14]) [15]
+(./src/ReprezentaceDatVPC.tex [16]
+Underfull \vbox (badness 10000) has occurred while \output is active
+\vbox(731.23584+2.33331)x455.24411, glue set 6.49179
+.\glue(\topskip) 1.66669
+.\hbox(8.33331+2.33331)x455.24411, glue set 0.00818
+..\hbox(0.0+0.0)x20.0
+..\tenrm K
+..\tenrm a
+..\tenrm ž
+..\tenrm d
+..\tenrm é
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm č
+..\tenrm í
+..\tenrm s
+..\tenrm l
+..\tenrm o
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm a
+..\tenrm k
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm l
+..\tenrm z
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm p
+..\tenrm s
+..\tenrm a
+..\tenrm t
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm v
+..etc.
+.\penalty 10100
+.\glue(\baselineskip) 5.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.25159
+..\tenrm s
+..\tenrm o
+..\tenrm b
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm a
+..\tenrm k
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm p
+..\tenrm s
+..\tenrm a
+..\tenrm t
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm č
+..\tenrm í
+..\tenrm s
+..\tenrm l
+..\tenrm o
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm a
+..\tenrm k
+..\kern-0.32639
+..\tenrm o
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm s
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 4.66669
+.\hbox(9.0+3.0)x455.24411, glue set 294.66661fil
+..\tenrm j
+..\tenrm e
+..\discretionary
+...\tenrm -
+..\tenrm j
+..\tenrm i
+..\tenrm c
+..\kern-0.32639
+..\tenrm h
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\kern0.32639
+..\tenrm o
+..\discretionary
+...\tenrm -
+..\tenrm z
+..\tenrm i
+..\tenrm c
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm (
+..\tenrm ř
+..\tenrm á
+..\tenrm d
+..\tenrm u
+..\tenrm )
+..\tenrm .
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm N
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm p
+..etc.
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 13.0
+.\hbox(0.0+0.0)x455.24411, glue set 435.24411fil
+..\hbox(0.0+0.0)x20.0
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\penalty 10000
+.\glue(\abovedisplayshortskip) 0.0 plus 3.0
+.\glue(\baselineskip) 5.63199
+.\hbox(10.36801+4.26665)x200.31944, shifted 127.46234, display
+..\tenrm 1
+..\tenrm 2
+..\tenrm 3
+..\hbox(6.29997+2.09999)x16.46683, shifted 2.16666
+...\tenrm (
+...\tenrm 1
+...\tenrm 0
+...\tenrm )
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm =
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm (
+..\tenrm 1
+..\tenrm 0
+..\hbox(5.41331+0.0)x5.06258, shifted -4.9547
+...\tenrm 2
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\mF ^^A
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm 1
+..\tenrm )
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm +
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm (
+..\tenrm 1
+..\tenrm 0
+..\hbox(5.41331+0.0)x5.06258, shifted -4.9547
+...\tenrm 1
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\mF ^^A
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm 2
+..\tenrm )
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm +
+..etc.
+.\penalty 0
+.\glue(\belowdisplayshortskip) 7.0 plus 3.0 minus 4.0
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 3.46669
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.96558
+..\hbox(0.0+0.0)x20.0
+..\tenrm S
+..\tenrm t
+..\tenrm e
+..\tenrm j
+..\tenrm n
+..\kern-0.32639
+..\tenrm ý
+..\tenrm m
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\tenrm p
+..\kern0.32639
+..\tenrm ů
+..\tenrm s
+..\tenrm o
+..\tenrm b
+..\kern0.32639
+..\tenrm e
+..\tenrm m
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm l
+..\tenrm z
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm d
+..\tenrm e
+..\tenrm ^^L (ligature fi)
+..\tenrm n
+..\tenrm o
+..etc.
+.\penalty 20000
+.\glue(\baselineskip) 5.40002
+.\hbox(8.26666+0.0)x455.24411, glue set 340.61752fil
+..\tenrm z
+..\tenrm á
+..\tenrm k
+..\tenrm l
+..\tenrm a
+..\tenrm d
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\tenrm v
+..\kern-0.32639
+..\tenrm o
+..\tenrm l
+..\tenrm í
+..\tenrm m
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm č
+..\tenrm í
+..\tenrm s
+..\tenrm l
+..\tenrm o
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 2
+..\tenrm :
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\glue 8.0 plus 2.6665 minus 2.6665
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 6.23198
+.\hbox(9.76802+2.33331)x455.24411, glue set 336.49448fil
+..\glue(\leftskip) 20.0
+..\hbox(5.33334+0.0)x0.0, glue set - 11.87495fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+...\mathon
+...\mF ^^O
+...\mathoff
+...\kern 5.87494
+..\tenbf J
+..\tenbf e
+..\tenbf d
+..\tenbf n
+..\tenbf o
+..\tenbf t
+..\tenbf k
+..\tenbf y
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm -
+..\discretionary
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\mathon
+..\tenrm 2
+..\hbox(5.41331+0.0)x5.06258, shifted -4.3547
+...\tenrm 0
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm =
+..\penalty 500
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm 1
+..\mathoff
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 3.89867
+.\hbox(9.76802+2.33331)x455.24411, glue set 345.79446fil
+..\glue(\leftskip) 20.0
+..\hbox(5.33334+0.0)x0.0, glue set - 11.87495fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+...\mathon
+...\mF ^^O
+...\mathoff
+...\kern 5.87494
+..\tenbf D
+..\tenbf e
+..\tenbf s
+..\tenbf í
+..\tenbf t
+..\tenbf k
+..\tenbf y
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm -
+..\discretionary
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\mathon
+..\tenrm 2
+..\hbox(5.41331+0.0)x5.06258, shifted -4.3547
+...\tenrm 1
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm =
+..\penalty 500
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm 2
+..\mathoff
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.etc.
+
+ [17])
+Underfull \vbox (badness 3189) has occurred while \output is active
+\vbox(731.23584+2.33331)x455.24411, glue set 3.1723
+.\glue(\topskip) 0.0
+.\vbox(541.5998+0.0)x319.8788
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenbf D
+....\tenbf e
+....\tenbf c
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 2.86218fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenbf Z
+....\tenbf n
+....\tenbf a
+....\tenbf k
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681
+....\kern 5.87494
+....\tenbf D
+....\tenbf e
+....\tenbf c
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 7.4399fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenbf Z
+....\tenbf n
+....\tenbf a
+....\tenbf k
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681
+....\kern 5.87494
+....\tenbf D
+....\tenbf e
+....\tenbf c
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenbf Z
+....\tenbf n
+....\tenbf a
+....\tenbf k
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681
+....\kern 5.87494
+....\tenbf D
+....\tenbf e
+....\tenbf c
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenbf Z
+....\tenbf n
+....\tenbf a
+....\tenbf k
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 0
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm N
+....\tenrm U
+....\tenrm L
+....\tenrm L
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm M
+....\tenrm e
+....\tenrm z
+....\tenrm e
+....\tenrm r
+....\tenrm a
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.2987fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm @
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 9
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 26.17365fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm `
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 1
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 7.82494fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm S
+....\tenrm O
+....\tenrm H
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 33.61354fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm !
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.62926fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm A
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 9
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 23.56256fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm a
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 8.4777fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm S
+....\tenrm T
+....\tenrm X
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 31.00246fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm "
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 21.11674fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm B
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 9
+....\tenrm 8
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 22.90979fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm b
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 7.01105fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm E
+....\tenrm T
+....\tenrm X
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 27.08583fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm #
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.95148fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm C
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 9
+....\tenrm 9
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 24.21533fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm c
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 6.6805fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm E
+....\tenrm O
+....\tenrm T
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 31.00246fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm $
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 8
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.46397fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm D
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 0
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 22.90979fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm d
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 6.35828fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm E
+....\tenrm N
+....\tenrm Q
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 27.08583fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm %
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 6
+....\tenrm 9
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 21.44313fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm E
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 1
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 24.21533fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm e
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 6.19717fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm A
+....\kern-0.32639
+....\tenrm C
+....\tenrm K
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 8
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 27.7386fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm &
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 0
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 21.76952fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm F
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 25.84726fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm f
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 8.64296fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm B
+....\tenrm E
+....\tenrm L
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 3
+....\tenrm 9
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 33.61354fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm '
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 1
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.21814fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm G
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 23.56256fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm g
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 8
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 17.45122fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm B
+....\tenrm S
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 0
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 32.308fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm (
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.62926fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm H
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 22.90979fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm h
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 16.632fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 9
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 15.00542fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm H
+....\tenrm T
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 1
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 32.308fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm )
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 25.19865fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm I
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 26.17365fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm i
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 10.75706fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 17.2901fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm L
+....\tenrm F
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 31.00246fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm *
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 23.40144fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm J
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 25.84726fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm j
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 10.75706fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 1
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 15.00542fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm V
+....\tenrm T
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 27.7386fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm +
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 20.30287fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm K
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 23.23618fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm k
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 10.75706fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 2
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 16.96371fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm F
+....\tenrm F
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 4
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 33.61354fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm ,
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 6
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 22.0959fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm L
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 8
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 26.17365fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm l
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..\rule(0.4+0.0)x319.8788
+..\hbox(11.344+4.656)x319.8788
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x35.05681, glue set 10.75706fil
+....\rule(*+*)x0.4
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 3
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x45.84955, glue set 15.16652fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm C
+....\tenrm R
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 4
+....\tenrm 5
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x50.42726, glue set 32.96077fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm -
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 10.75706fil
+....\kern 5.87494
+....\tenrm 7
+....\tenrm 7
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x42.98737, glue set 18.67094fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm M
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+....\kern 1.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x34.65681, glue set 4.88213fil
+....\kern 5.87494
+....\tenrm 1
+....\tenrm 0
+....\tenrm 9
+....\glue 0.0 plus 1.0fil
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+...\hbox(11.344+4.656)x41.58737, glue set 19.64594fil
+....\kern 5.87494
+....\glue 0.0 plus 1.0fil
+....\tenrm m
+....\kern 5.87494
+....\rule(11.344+4.656)x0.0
+....\rule(*+*)x0.4
+...\glue(\tabskip) 0.0
+..etc.
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 7.73334
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.04555
+..\hbox(0.0+0.0)x20.0
+..\tenrm T
+..\kern-0.97916
+..\tenrm a
+..\tenrm k
+..\tenrm ž
+..\tenrm e
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm n
+..\tenrm a
+..\tenrm p
+..\tenrm ř
+..\tenrm í
+..\tenrm k
+..\tenrm l
+..\tenrm a
+..\tenrm d
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm t
+..\tenrm e
+..\tenrm x
+..\tenrm t
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm "
+..\tenrm H
+..\tenrm e
+..\tenrm l
+..\tenrm l
+..\tenrm o
+..etc.
+.\penalty 20000
+.\glue(\baselineskip) 5.93336
+.\hbox(7.73332+2.33331)x455.24411, glue set 272.46823fil
+..\tenrm 1
+..\tenrm 0
+..\tenrm 8
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 1
+..\tenrm 0
+..\tenrm 8
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 3
+..\tenrm 2
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 8
+..\tenrm 7
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 1
+..\tenrm 1
+..\tenrm 1
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 1
+..\tenrm 1
+..\tenrm 4
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 1
+..\tenrm 0
+..etc.
+.\penalty -200
+.\glue 8.0 plus 2.6665 minus 2.6665
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 6.86726
+.\hbox(10.0006+2.80016)x455.24411, glue set 345.77911fil
+..\write0<3>{\string \Xtoc {2}{\noexpand \rm }{6.3.2}{Obrázky}{\the \pageno }}
+
+..\tenbf 6
+..\tenbf .
+..\tenbf 3
+..\tenbf .
+..\tenbf 2
+..\glue 16.20099
+..\tenbf O
+..\tenbf b
+..\tenbf r
+..\tenbf á
+..\tenbf z
+..\tenbf k
+..\tenbf y
+..\penalty 10000
+..\glue(\parfillskip) 0.0 plus 1.0fil
+..\glue(\rightskip) 0.0
+.\penalty 10000
+.\glue 8.0 plus 2.6665 minus 2.6665
+.\penalty 11333
+.\glue(\parskip) 0.0 plus 1.0
+.\glue(\baselineskip) 4.93318
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.28766
+..\tenrm O
+..\tenrm b
+..\tenrm r
+..\tenrm á
+..\tenrm z
+..\tenrm k
+..\tenrm y
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm j
+..\tenrm s
+..\tenrm o
+..\tenrm u
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm s
+..\tenrm l
+..\tenrm o
+..\discretionary
+...\tenrm -
+..\tenrm ž
+..\tenrm e
+..\tenrm n
+..\tenrm é
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm m
+..\tenrm ř
+..\tenrm í
+..\tenrm ž
+..\tenrm k
+..\tenrm y
+..etc.
+.\penalty 10000
+.\glue(\baselineskip) 5.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.92387
+..\tenrm n
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm p
+..\tenrm ř
+..\tenrm í
+..\discretionary
+...\tenrm -
+..\tenrm k
+..\tenrm l
+..\tenrm a
+..\tenrm d
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm 8
+..\tenrm 0
+..\tenrm 0
+..\tenrm x
+..\tenrm 6
+..\tenrm 0
+..\tenrm 0
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm z
+..\tenrm n
+..\tenrm a
+..\discretionary
+...\tenrm -
+..\tenrm m
+..\tenrm e
+..\tenrm á
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm ž
+..etc.
+.\glue(\baselineskip) 5.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set 0.36911
+..\tenrm š
+..\tenrm í
+..\tenrm ř
+..\tenrm k
+..\tenrm u
+..\tenrm .
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm C
+..\tenrm e
+..\tenrm l
+..\discretionary
+...\tenrm -
+..\tenrm k
+..\kern-0.32639
+..\tenrm o
+..\kern-0.32639
+..\tenrm v
+..\tenrm ý
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\kern0.32639
+..\discretionary replacing 2
+...\tenrm o
+...\tenrm -
+..\tenrm o
+..\kern0.32639
+..\tenrm č
+..\tenrm e
+..\tenrm t
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm p
+..\tenrm i
+..\discretionary
+...\tenrm -
+..etc.
+.\penalty 100
+.\glue(\baselineskip) 5.40002
+.\hbox(8.26666+2.33331)x455.24411, glue set - 0.01015
+..\tenrm p
+..\tenrm ř
+..\tenrm í
+..\discretionary
+...\tenrm -
+..\tenrm k
+..\tenrm l
+..\tenrm a
+..\tenrm d
+..\tenrm :
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\mathon
+..\tenrm 8
+..\tenrm 0
+..\tenrm 0
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\mF ^^C
+..\penalty 700
+..\glue(\medmuskip) 2.66663 plus 1.33331 minus 2.66663
+..\tenrm 6
+..\tenrm 0
+..\tenrm 0
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm =
+..\penalty 500
+..\glue(\thickmuskip) 3.33328 plus 3.33328
+..\tenrm 4
+..\tenrm 8
+..\tenrm 0
+..\tenrm 0
+..\tenrm 0
+..etc.
+.\glue(\baselineskip) 4.66669
+.\hbox(9.0+3.0)x455.24411, glue set 0.74779
+..\tenrm R
+..\kern-0.32639
+..\tenrm G
+..\tenrm B
+..\glue 3.91663 plus 1.95634 minus 1.30684
+..\tenrm (
+..\tenrm R
+..\tenrm e
+..\tenrm d
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm G
+..\tenrm r
+..\tenrm e
+..\tenrm e
+..\tenrm ,
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm B
+..\tenrm l
+..\tenrm u
+..\tenrm e
+..\tenrm )
+..\tenrm .
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..\tenrm K
+..\tenrm a
+..\tenrm ž
+..\tenrm d
+..\tenrm á
+..\glue 3.91663 plus 1.95831 minus 1.30554
+..etc.
+.\penalty 100
+.etc.
+
+ [18]
+[19] (./src/Promenne.tex) [20] (./src/RidiciKonstrukce.tex) [21]
+(./src/Funkce.tex) [22] (./src/DatoveStruktury.tex) [23] (./src/Ukazatele.tex)
+[24] (./src/Preprocesor.tex) [25] (./src/SouboryARetezce.tex) [26] )</usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/cs/csbx12.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csr10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/cs/csr12.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/cs/csr8.pfb></usr/share/texmf-dist/fonts/type1/public/cs/csti12.pfb>
+</usr/share/texmf-dist/fonts/type1/public/cs/cstt12.pfb>
+Output written on pdf/UvodDoProgramovani.pdf (29 pages, 1149788 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
