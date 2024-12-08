@@ -1,8 +1,6 @@
-%% OPmac - REF file (\inputref)
+%% OPmac - REF file (\openref)
 \Xrefversion{2}
-\Xpage{1}
 \Xpage{2}
-\Xpage{3}
 \Xpage{1}
 \Xtoc{0}{\bfshape }{1}{Úvod}{1}
 \Xtoc{1}{\rm }{1.1}{Co je to programování}{1}
@@ -11,7 +9,7 @@
 \Xpage{2}
 \Xtoc{1}{\rm }{1.4}{Jak se učit programovat}{2}
 \Xpage{3}
-\Xtoc{0}{\bfshape }{2}{Zaklady algoritmizace}{3}
+\Xtoc{0}{\bfshape }{2}{Základy algoritmizace}{3}
 \Xtoc{1}{\rm }{2.1}{Co je to algoritmus}{3}
 \Xtoc{1}{\rm }{2.2}{Vlastnosti algoritmu}{3}
 \Xtoc{1}{\rm }{2.3}{Kontext/vnitřní stav algoritmu}{3}
@@ -61,6 +59,7 @@
 \Xpage{18}
 \Xtoc{2}{\rm }{6.3.2}{Obrázky}{18}
 \Xpage{19}
+\Xtoc{2}{\rm }{6.3.3}{Obrázky}{19}
 \Xpage{20}
 \Xtoc{0}{\bfshape }{7}{Proměnné}{20}
 \Xtoc{1}{\rm }{7.1}{Datové typy}{20}

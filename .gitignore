@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+*.log
+*.ref
 
 # Object files
 *.o
