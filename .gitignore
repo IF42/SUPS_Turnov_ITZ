@@ -1,7 +1,12 @@
 # Prerequisites
 *.d
+<<<<<<< HEAD
+*.ref
+*.log
+=======
 *.log
 *.ref
+>>>>>>> 44ff8d06033e4a9084e68767c1c0daff35ef0019
 
 # Object files
 *.o
