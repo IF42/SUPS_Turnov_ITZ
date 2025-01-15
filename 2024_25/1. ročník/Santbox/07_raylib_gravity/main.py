@@ -26,7 +26,8 @@ while window_should_close() is False:
 
     # detekce dopadu na povrch
     if pos_y < WIN_HEIGHT - 100:
-        acc_y += G_COEFICIENT
+        if acc_y < 5:
+            acc_y += G_COEFICIENT
     else:
         pos_y = WIN_HEIGHT - 100
         acc_y = 0
