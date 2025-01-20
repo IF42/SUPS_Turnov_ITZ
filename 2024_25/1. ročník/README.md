@@ -1,5 +1,8 @@
 # Školní rok 2024/25
 
+# Tutoriál pro programovací jazyk Python
+[https://youtube.com/playlist?list=PLq-XS4UmIwfqCWywdox6fgHSWDuNCjHZ-&si=sOUrMXMBvre-ow5r](https://youtube.com/playlist?list=PLq-XS4UmIwfqCWywdox6fgHSWDuNCjHZ-&si=sOUrMXMBvre-ow5r)
+
 # Tutoriál pro Raylib (PyRay)
 [https://youtu.be/UoAsDlUwjy0](https://youtu.be/UoAsDlUwjy0)
 
