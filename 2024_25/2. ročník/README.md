@@ -3,3 +3,4 @@
 ## Odkazy na slovníky pojmů k počítačové bezpečnosti
 * [https://www.avast.com/cs-cz/c-online-threats](https://www.avast.com/cs-cz/c-online-threats)
 * [https://www.eset.com/cz/slovnik/](https://www.eset.com/cz/slovnik/)
+* [Flipper Zero](https://youtu.be/9yFuJD0fo44)

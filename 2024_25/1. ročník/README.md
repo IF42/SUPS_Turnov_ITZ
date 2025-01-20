@@ -1,5 +1,12 @@
 # Školní rok 2024/25
 
+# Tutoriál pro Raylib (PyRay)
+[https://youtu.be/UoAsDlUwjy0](https://youtu.be/UoAsDlUwjy0)
+
+# Klon hry Dino
+[https://github.com/IF42/Dino](https://github.com/IF42/Dino)
+
+
 # FPS - frame per second
 FPS se používá k měření plynulosti animace ve videohrách a grafických animacích. Vyjadřuje, kolik snímků (obrazů) je zobrazováno/vykresleno za jednu sekundu. Vyšší počet snímků za sekundu znamená plynulejší pohyb a lepší dojem z grafického výstupu. 
 
