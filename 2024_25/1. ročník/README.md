@@ -1,5 +1,11 @@
 # Školní rok 2024/25
 
+# Pololetní práce
+* Dohodněte se jestli chcete pracovat samostatně nebo ve skupině případně s kým ve skupině chcete pracovat (velikosti skupiny bude odpovídat rozsah výsledné práce)
+* Vytvořte si návrh téma na kterém budete pracovat (neomezujte se, buďte kreativní)
+* Připravte si malou prezentaci, kterou mi představíte své téma (stačí v bodech na papír, skici, scénáře, zápletky, pointa, ...)
+* Ve dnech 12. a 13.3 si společně odprezentujeme připravené návrhy a já vám k tomu dám komentář k realizovatelnosti, případně k postupu realizace
+
 # Tutoriál pro programovací jazyk Python
 [https://youtube.com/playlist?list=PLq-XS4UmIwfqCWywdox6fgHSWDuNCjHZ-&si=sOUrMXMBvre-ow5r](https://youtube.com/playlist?list=PLq-XS4UmIwfqCWywdox6fgHSWDuNCjHZ-&si=sOUrMXMBvre-ow5r)
 
