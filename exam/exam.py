@@ -14,13 +14,24 @@ if __name__ == "__main__":
     with open(sys.argv[-1], 'r') as file:
         data = json.load(file)
 
+    prev = []
     while True:
         cls()
         print("Press Enter key")
-        input()
+        if input() == "q":
+            break;
 
         cls()
-        num = random.randint(0, len(data) - 1)
+        while True:
+            num = random.randint(0, len(data) - 1)
+            if num not in prev:
+                break
+        
+        if len(prev) >= len(data) - 2:     
+            prev = prev[1:]
+
+        prev.append(num)
+
         print(data[num])
 
         if input() == "q":

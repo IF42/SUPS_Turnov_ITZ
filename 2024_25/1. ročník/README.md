@@ -1,5 +1,14 @@
 # Školní rok 2024/25
 
+# Postup při realizaci (obecně softwaru) pololetní práce
+* návrh tématu (scénář hry, pointa, ...)
+* rozpracování do logických částí, komponent (hráč, překážka, scéna, jádro, ...)
+* návrh architektury (vzájemné propojení samostatných komponent, vytvoření diagramu vzájemného propjení)
+* rozdělení rolí ve skupině, kdo bude mít na starosti kterou komponentu
+* definování rozhraní jednotlivých komponent pro jejich vzájemné propjení ve zdrojovém kódu (nejdřív minimální pro základní činnost a rozhraní může dál postupně vznikat podle potřeb)
+* příprava grafického (případně zvuk, nebo jiné) podkladu 
+* iterativní proces programování, testování a ladění (příprava nějaké části, a otestování zda dělá to co má, případně její úprava dokud nebude fungovat podle představ)
+
 # Pololetní práce
 * Dohodněte se jestli chcete pracovat samostatně nebo ve skupině případně s kým ve skupině chcete pracovat (velikosti skupiny bude odpovídat rozsah výsledné práce)
 * Vytvořte si návrh téma na kterém budete pracovat (neomezujte se, buďte kreativní)
